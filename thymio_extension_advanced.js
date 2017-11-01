@@ -2105,6 +2105,20 @@ motor.right.target = event.args[0] \
     };
 
     var menus = {
+	de: {
+            leftrightall: ["links", "rechts", "alle"],
+            leftright: ["left", "right"],
+            sensors: ["front", "back", "ground"],
+            proxsensors: ["front far left", "front left", "front center", "front right", "front far right", "back left", "back right"],
+            singlelight: ["top", "bottom-left", "bottom-right"],
+            light: ["all", "top", "bottom", "bottom-left", "bottom-right"],
+            angles: ["front", "back", "ground"],
+            sounds: ["0", "1", "2", "3", "4", "5", "6", "7"],
+            odo: ["direction", "x", "y"],
+            tilts: ["front-back", "top-bottom", "left-right"],
+            buttons: ["center","front","back","left","right"]
+		
+	},
         en: {
             leftrightall: ["left", "right", "all"],
             leftright: ["left", "right"],
