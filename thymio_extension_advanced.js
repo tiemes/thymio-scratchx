@@ -1941,7 +1941,7 @@ motor.right.target = event.args[0] \
             ["r", "leds color %m.light", "leds", "top"],            
             */
             ],
-		en: [
+	en: [
             [" ", "motor %m.leftrightall %n", "scratch_motor", "left", 50],
             [" ", "stop motors", "scratch_stop"],
             ["w", "move %n", "scratch_move", 50],
